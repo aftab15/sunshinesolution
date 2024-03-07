@@ -2543,3 +2543,7 @@ label {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+.productImg{
+  aspect-ratio: 16 / 19;
+}

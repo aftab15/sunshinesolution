@@ -27,8 +27,8 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="icon" href="images/logo.png" type="image/x-icon">
 
 </head>
 
@@ -36,7 +36,7 @@
 
   <!-- preloader start -->
   <div class="preloader">
-    <img src="images/preloader.gif" alt="preloader">
+    <img src="images/Tool_animated.gif" style='width:50px; height: 60px' alt="preloader">
   </div>
   <!-- preloader end -->
 
@@ -62,24 +62,7 @@
       <div class="col-lg-6 text-center text-lg-left">
         <p class="text-white mb-lg-0 mb-1">Free shipping • Free 30 days return • Express delivery</p>
       </div>
-      <div class="col-lg-6 text-center text-lg-right">
-        <ul class="list-inline">
-          <li class="list-inline-item"><img src="images/flag.jpg" alt="flag"></li>
-          <li class="list-inline-item"><a href="login.html">My Accounts</a></li>
-          <li class="list-inline-item">
-            <form action="#">
-              <select class="country" name="country">
-                <option value="USD">USD</option>
-                <option value="JPN">JPN</option>
-                <option value="BAN">BAN</option>
-              </select>
-            </form>
-          <!-- <li class="list-inline-item">
-            <a class="active" href="#">EN</a>
-            <a href="#">FR</a>
-          </li> -->
-        </ul>
-      </div>
+
     </div>
   </div>
   <!-- /top-header -->
@@ -269,20 +252,6 @@
                     <div class="flex-basis-55 p-2 p-sm-4 align-self-sm-center">
                         <p class="text-gray mb-0">Showing <span class="text-color">1-9 of 20</span> Results</p>
                     </div>
-                    <div class="flex-basis-15 p-2 p-sm-4 border-right border-left text-center">
-                        <select class="select" name="filter" id="filter">
-                            <option value="1">Filter</option>
-                            <option value="2">Popular</option>
-                            <option value="3">Top Products</option>
-                        </select>
-                    </div>
-                    <div class="flex-basis-15 p-2 p-sm-4 text-center">
-                        <select class="select" name="short" id="short">
-                            <option value="1">Short</option>
-                            <option value="2">A-Z</option>
-                            <option value="3">Z-A</option>
-                        </select>
-                    </div>
                 </div>
             </div>
             <!-- sidebar -->
@@ -340,93 +309,6 @@
                         </li>
                     </ul>
                 </div>
-                <!-- price range -->
-                <div class="mb-30">
-                    <h4 class="mb-4">Shop by Price</h4>
-                    <input class="range-track" type="text" data-slider-min="0" data-slider-max="1000" data-slider-step="5"
-                        data-slider-value="[0,300]" />
-                    <div class="d-flex justify-content-between">
-                        <button class="btn btn-sm btn-primary">Filter</button>
-                        <span class="value">$0 - $300</span>
-                    </div>
-                </div>
-                <!-- size checkbox -->
-                <div class="mb-30">
-                    <h4 class="mb-3">Shop by Size</h4>
-                    <form action="#">
-                        <div class="d-flex justify-content-between size-checkbox">
-                            <label class="label">L Large
-                                <input type="checkbox">
-                                <span class="box"></span>
-                            </label>
-                            <span class="mt-2">9</span>
-                        </div>
-                        <div class="d-flex justify-content-between size-checkbox">
-                            <label class="label">XL Extra Large
-                                <input type="checkbox">
-                                <span class="box"></span>
-                            </label>
-                            <span class="mt-2">5</span>
-                        </div>
-                        <div class="d-flex justify-content-between size-checkbox">
-                            <label class="label">M Medium
-                                <input type="checkbox">
-                                <span class="box"></span>
-                            </label>
-                            <span class="mt-2">8</span>
-                        </div>
-                        <div class="d-flex justify-content-between size-checkbox">
-                            <label class="label">S Small
-                                <input type="checkbox">
-                                <span class="box"></span>
-                            </label>
-                            <span class="mt-2">5</span>
-                        </div>
-                        <div class="d-flex justify-content-between size-checkbox">
-                            <label class="label">XS Extra Small
-                                <input type="checkbox">
-                                <span class="box"></span>
-                            </label>
-                            <span class="mt-2">3</span>
-                        </div>
-                    </form>
-                </div>
-                <!-- color selector -->
-                <div class="color">
-                    <h4 class="mb-3">Shop by Color</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item mr-4">
-                            <label class="radio">
-                                <input type="radio" name="radio">
-                                <span class="radio-box bg-magenta"></span>
-                            </label>
-                        </li>
-                        <li class="list-inline-item mr-4">
-                            <label class="radio">
-                                <input type="radio" name="radio">
-                                <span class="radio-box bg-dark-green"></span>
-                            </label>
-                        </li>
-                        <li class="list-inline-item mr-4">
-                            <label class="radio">
-                                <input type="radio" name="radio">
-                                <span class="radio-box bg-sky-blue"></span>
-                            </label>
-                        </li>
-                        <li class="list-inline-item mr-4">
-                            <label class="radio">
-                                <input type="radio" name="radio">
-                                <span class="radio-box bg-red"></span>
-                            </label>
-                        </li>
-                        <li class="list-inline-item mr-4">
-                            <label class="radio">
-                                <input type="radio" name="radio">
-                                <span class="radio-box bg-dark"></span>
-                            </label>
-                        </li>
-                    </ul>
-                </div>
             </div>
             <!-- product-list -->
             <div class="col-lg-9">
@@ -437,9 +319,9 @@
                             <div class="product-thumb position-relative text-center">
                                 <div class="overflow-hidden position-relative">
                                     <a href="product-single.html">
-                                        <img class="img-fluid w-100 mb-3 img-first" src="images/collection/product-1.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-first" src="images/EFY.jpeg"
                                             alt="product-img">
-                                        <img class="img-fluid w-100 mb-3 img-second" src="images/collection/product-4.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-second" src="images/collection/product-4.jpg"
                                             alt="product-img">
                                     </a>
                                 </div>
@@ -455,8 +337,7 @@
                         </div>
                         <div class="col-sm-8">
                             <div class="product-info">
-                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">Leather
-                                        Backpack</a></h3>
+                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">EF 9Y</a></h3>
                                 <p class="mb-md-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -483,9 +364,9 @@
                             <div class="product-thumb position-relative text-center">
                                 <div class="overflow-hidden position-relative">
                                     <a href="product-single.html">
-                                        <img class="img-fluid w-100 mb-3 img-first" src="images/collection/product-2.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-first" src="images/MYE.jpeg"
                                             alt="product-img">
-                                        <img class="img-fluid w-100 mb-3 img-second" src="images/collection/product-5.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-second" src="images/MYE.jpeg"
                                             alt="product-img">
                                     </a>
                                 </div>
@@ -501,8 +382,7 @@
                         </div>
                         <div class="col-sm-8">
                             <div class="product-info">
-                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">Box Leather
-                                        Shoulder Bag</a></h3>
+                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">EF 6Y</a></h3>
                                 <p class="mb-md-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -529,9 +409,9 @@
                             <div class="product-thumb position-relative text-center">
                                 <div class="overflow-hidden position-relative">
                                     <a href="product-single.html">
-                                        <img class="img-fluid w-100 mb-3 img-first" src="images/collection/product-3.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-first" src="images/ZEK.jpeg"
                                             alt="product-img">
-                                        <img class="img-fluid w-100 mb-3 img-second" src="images/collection/product-6.jpg"
+                                        <img style="aspect-ratio: 16/19;" class="img-fluid w-100 mb-3 img-second" src="images/ZEK.jpeg"
                                             alt="product-img">
                                     </a>
                                 </div>
@@ -547,8 +427,7 @@
                         </div>
                         <div class="col-sm-8">
                             <div class="product-info">
-                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">Sneaky
-                                        Leather Sneakers</a></h3>
+                                <h3 class="mb-md-4 mb-3"><a class="text-color" href="product-single.html">ZCHEK WP</a></h3>
                                 <p class="mb-md-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                                     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -587,7 +466,7 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+        <div class="col-md-4 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
           <h4 class="mb-4">Contact</h4>
           <p>20464 Hirthe Curve Suite, Emardton, CT 12471-4107</p>
           <p>+5(305) 785-0437</p>
@@ -599,7 +478,7 @@
             <li class="list-inline-item"><a href="#"><i class="ti-google"></i></a></li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+        <div class="col-md-4 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
           <h4 class="mb-4">Category</h4>
           <ul class="pl-0 list-unstyled">
             <li class="mb-2"><a class="text-color" href="shop.html">Men</a></li>
@@ -609,7 +488,7 @@
             <li class="mb-2"><a class="text-color" href="shop.html">Shoe</a></li>
           </ul>
         </div>
-        <div class="col-md-3 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
+        <div class="col-md-4 col-sm-6 mb-5 mb-md-0 text-center text-sm-left">
           <h4 class="mb-4">Useful Link</h4>
           <ul class="pl-0 list-unstyled">
             <li class="mb-2"><a class="text-color" href="about.html">News & Tips</a></li>
@@ -622,11 +501,9 @@
         <div class="col-md-3 col-sm-6 text-center text-sm-left">
           <h4 class="mb-4">Our Policies</h4>
           <ul class="pl-0 list-unstyled">
-            <li class="mb-2"><a class="text-color" href="404.html">Privacy Policy</a></li>
-            <li class="mb-2"><a class="text-color" href="404.html">Terms & Conditions</a></li>
-            <li class="mb-2"><a class="text-color" href="404.html">Cookie Policy</a></li>
-            <li class="mb-2"><a class="text-color" href="404.html">Terms of Sale</a></li>
-            <li class="mb-2"><a class="text-color" href="dashboard.html">Free Shipping & Returns</a></li>
+            <li class="mb-2"><a class="text-color" href="https://policies.google.com/privacy" target =' _blank'  >Privacy Policy</a></li>
+            <li class="mb-2"><a class="text-color" href="https://policies.google.com/terms" target =' _blank' >Terms & Conditions</a></li>
+            
           </ul>
         </div>
       </div>
