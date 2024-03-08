@@ -2547,3 +2547,8 @@ label {
 .productImg{
   aspect-ratio: 16 / 19;
 }
+
+@media (max-width: 991px){
+.navbar .navbar-brand .img-fluid{
+  width: 60px !important;
+}}
